@@ -16,6 +16,7 @@ django-environ = "^0.11.2"
 django-extensions = "^3.2.3"
 django-split-settings = "^1.2.0"
 psycopg = { extras = ["binary"], version = "^3.1.10" }
+djangorestframework = "^3.14.0"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.15.0"
@@ -114,7 +115,6 @@ typing = "t"
 pythonVersion = "3.11"
 typeCheckingMode = "strict"
 reportUnnecessaryTypeIgnoreComment = true
-reportUnknownMemberType = false
 
 
 [tool.pytest.ini_options]
